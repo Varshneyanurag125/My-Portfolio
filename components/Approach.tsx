@@ -19,6 +19,7 @@ const Approach = () => {
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
+            dotSize={3}
           />
         </Card>
         <Card 
@@ -32,7 +33,7 @@ const Approach = () => {
               [236, 72, 153],
               [232, 121, 249],
             ]}
-            dotSize={2}
+            dotSize={2.5}
           />
         
         </Card>
@@ -44,6 +45,7 @@ const Approach = () => {
             animationSpeed={3}
             containerClassName="bg-sky-600"
             colors={[[125, 211, 252]]}
+            dotSize={3}
           />
         </Card>
       </div>
