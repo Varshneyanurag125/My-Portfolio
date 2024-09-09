@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
                 <p className=' text-white-200 md:mt-10 my-5 text-center'>Reach out to me today and let's discuss how i can help you achieve your goals.</p>
                 <a href="mailto:varshneyanurag125@gmail.com">
                     < MagicButton
-                    title="Let's get in touch "
+                    title="Lets get in touch "
                     icon ={<FaLocationArrow />}
                     position='right'
                     />
@@ -30,12 +30,12 @@ const Footer: React.FC = () => {
             <div className=' flex mt-16 md:flex-row flex-col justify-between items-center'>
                 <p className=' md:text-base text-sm md:font-normal font-light ' >Copyright © 2024 Anurag Varshney</p>
                 <div className=' flex items-center md:gap-3 gap-6'>
-                    {/* {socialMedia.map((socialMedia) => (
+                    {socialMedia.map((socialMedia) => (
                         <div key={socialMedia.id} className=' w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg
                          border-black-300'>
                             <Image src={socialMedia.img} alt="" width="20" height="20" />
                         </div>
-                    ))} */}
+                    ))}
                 </div>
             </div>
         </footer>
