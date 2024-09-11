@@ -6,7 +6,7 @@ import { socialMedia } from '@/data';
 import { profile } from 'console';
 import { div } from 'framer-motion/client';
 
-const Footer: React.FC = () => {
+const Footer = () => {
     return (
         <footer className=' w-full pt-20 pb-10' id='contact'>
             <div className=' w-full absolute left-0 -bottom-72 min-h-96'>
